@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <TextBox x:Name="txt" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Margin="10,38,0,0" VerticalAlignment="Top" Width="50"/>
+        <TextBox x:Name="txp" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Margin="154,38,0,0" VerticalAlignment="Top" Width="50"/>
+        <Button x:Name="Button" Content="Button" HorizontalAlignment="Left" Margin="350,21,0,0" VerticalAlignment="Top" Width="191" Click="Button_Click" Height="31"/>
+        <TextBlock TextWrapping="Wrap" Text="Кол-во строк" HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="79" Margin="10,10,0,0"/>
+        <TextBlock TextWrapping="Wrap" Text="Кол-во столбцов" HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Width="100" Margin="154,10,0,0"/>
+        <TextBlock x:Name="Batton" TextWrapping="Wrap" HorizontalAlignment="Left" VerticalAlignment="Top" Width="550" Margin="10,84,0,0"/>
     </Grid>
 </Window>
